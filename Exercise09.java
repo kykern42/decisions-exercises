@@ -11,5 +11,13 @@ public class Exercise09 {
         System.out.println("Enter a maximum value: ");
         int max = Integer.parseInt(console.nextLine());
 
+        System.out.println("Enter a real value: ");
+        int real = Integer.parseInt(console.nextLine());
+
+        if ((min < real) && (real < max)) {
+            System.out.println("Number is between minimum and maximum.");
+        } else {
+            System.out.println("Number is out of range of min/max.");
+        }
     }
 }
